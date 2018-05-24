@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+    <link rel="stylesheet" href="./css/iphone.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="jquery.js"></script>
+	<style type="text/css">
+       img{
+         width: 100px;
+       }
+       #header{  
+         display: none;
+       }
+        #x{
+          margin-left: 20px;
+        }
+       i{
+        font-size: 15px;
+        width: 20px;
+        font-style:normal;
+       }
+	</style>
+</head>
+<body>
+<div class="iphone">  
+    <div class="iphone-top">  
+      <span class="camera"></span>  
+      <span class="sensor"></span>  
+      <span class="speaker"></span>  
+    </div>  
+    <div class="top-bar"></div>  
+    <!-- ??     ??  -->
+    <div id="iphone-screen">  
+      <div id="x">
+        <h1 id="header">聊天室</h1>
+      <div id="mes"></div>
+      <div id="recv"></div>
+      </div>
+    
+      
+      
+      <i></i>
+      <i></i>
+    <img src="./img/苹果.png" id="applelogo">
+    <!-- ??     ??  -->
+    </div>   
+    <div class="buttons">  
+      <span class="on-off"></span>  
+      <span class="sleep"></span>  
+      <span class="up"></span>  
+      <span class="down"></span>  
+    </div>  
+    <div class="bottom-bar"></div>  
+    <div class="iphone-bottom">  
+      <span></span>  
+    </div>  
+  </div> 
+
+
+   <div id="console">
+   <div id="tool">
+  <input type="text" id="sendTxt">
+  <br>
+  <button id="sendBtn">发送</button>
+  <button id="sendNMBtn">匿名发送</button>
+  <br>
+<input type="file" id="img_upload"/>
+<br>
+<div id="emoji">
+<i>😊</i><i>😂</i><i>😡</i><i>😢</i><i>😠</i><i>🌚</i><i>😭</i><i>😄</i><i>😉</i><br>
+<i>🤯</i><i>😱</i><i>😒</i><i>☹️</i><i>😫</i><i>😨</i><i>😱</i><i>🙄</i><i>😝</i>
+</div>
+<button id="Losee">查看缓存</button>
+<button id="Loclean">清除缓存</button>
+<br>
+<div id="rea">
+  
+</div>
+</div>
+</div>
+   <script src="animation.js"></script>
+   <script src="chat.js"></script>
+   <script src="local.js"></script> 
+</body>
+</html>

@@ -1,0 +1,47 @@
+#applelogo{
+    position: absolute;
+    display: none;
+    top: 347px;
+    left: 164px;
+    width: 92px;
+}
+.sleep{
+   cursor: pointer;
+}
+
+#console{
+    position: absolute;
+    overflow: auto;
+    top: 169px;
+    left: 440px;
+    width:350px;
+    height: 535px;
+    background :#eee;
+    opacity: 0.8;
+    box-shadow:4px 3px 9px #888888;
+}
+
+#tool{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#sendBtn{
+    height: 37px;
+    width: 65px;
+    margin-top: 5px;
+}
+
+#sendNMBtn{
+    margin-top: 5px;
+    height: 37px;
+    width: 65px;
+}
+
+#sendTxt{
+    height: 30px;
+    font-size:20px
+}
+#img_upload{
+    height: 30px;
+}
